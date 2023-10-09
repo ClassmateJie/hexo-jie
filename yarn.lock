@@ -666,6 +666,13 @@
   "resolved" "https://registry.npmmirror.com/has/-/has-1.0.4.tgz"
   "version" "1.0.4"
 
+"hexo-butterfly-envelope@^1.0.15":
+  "integrity" "sha512-Z12iYDhrrJkARSvCIYTVRPrlipLE9o5Zeh2kozj/MbLz5tcQmfr62w+qu+hOJh2XiZucAyyoUyZq5faKP4YD4A=="
+  "resolved" "https://registry.npmmirror.com/hexo-butterfly-envelope/-/hexo-butterfly-envelope-1.0.15.tgz"
+  "version" "1.0.15"
+  dependencies:
+    "pug" "^3.0.0"
+
 "hexo-cli@^4.3.0":
   "integrity" "sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg=="
   "resolved" "https://registry.npmmirror.com/hexo-cli/-/hexo-cli-4.3.1.tgz"
@@ -729,6 +736,14 @@
   "version" "3.0.0"
   dependencies:
     "hexo-pagination" "3.0.0"
+
+"hexo-generator-search@^2.4.3":
+  "integrity" "sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ=="
+  "resolved" "https://registry.npmmirror.com/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz"
+  "version" "2.4.3"
+  dependencies:
+    "nunjucks" "^3.0.1"
+    "utils-merge" "^1.0.0"
 
 "hexo-generator-tag@^2.0.0":
   "integrity" "sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw=="
@@ -1252,7 +1267,7 @@
   "resolved" "https://registry.npmmirror.com/normalize-path/-/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.2.3":
+"nunjucks@^3.0.1", "nunjucks@^3.2.3":
   "integrity" "sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ=="
   "resolved" "https://registry.npmmirror.com/nunjucks/-/nunjucks-3.2.4.tgz"
   "version" "3.2.4"
@@ -1462,7 +1477,7 @@
   "resolved" "https://registry.npmmirror.com/pug-walk/-/pug-walk-2.0.0.tgz"
   "version" "2.0.0"
 
-"pug@^3.0.2":
+"pug@^3.0.0", "pug@^3.0.2":
   "integrity" "sha512-bp0I/hiK1D1vChHh6EfDxtndHji55XP/ZJKwsRqrz6lRia6ZC2OZbdAymlxdVFwd1L70ebrVJw4/eZ79skrIaw=="
   "resolved" "https://registry.npmmirror.com/pug/-/pug-3.0.2.tgz"
   "version" "3.0.2"
@@ -1762,7 +1777,7 @@
   "resolved" "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
 
-"utils-merge@1.0.1":
+"utils-merge@^1.0.0", "utils-merge@1.0.1":
   "integrity" "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA=="
   "resolved" "https://registry.npmmirror.com/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
